@@ -53,7 +53,7 @@
 			"*@description 说明.",
 			"*/"
 		],
-		"description": "用于注释"
+		"description": "用于作者注释"
 	},
 	"全局函数注释": {
 		"prefix": "@function",
@@ -64,7 +64,7 @@
 			"*@example 例.",
 			"*/"
 		],
-		"description": "用于注释"
+		"description": "用于函数注释"
 	},
 }
 
