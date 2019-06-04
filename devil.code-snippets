@@ -39,7 +39,7 @@
 			"};",
 			"</script>",
 			"",
-			"<style lang=\"scss\" scoped>",
+			"<style lang=\"stylus\" scoped>",
 			"</style>",
 		],
 		"description": "用于组件文件建设"
@@ -48,23 +48,28 @@
 		"prefix": "@author",
 		"body": [
 			"/**",
-			"*@author zhi.hong",
-			"*@date ${CURRENT_YEAR}/${CURRENT_MONTH}/${CURRENT_DATE}",
-			"*@description 说明.",
-			"*/"
+			"*@author hongz1125@qq.com ${CURRENT_YEAR}/${CURRENT_MONTH}/${CURRENT_DATE}",
+			"*@description $1",
+			"**/"
 		],
-		"description": "用于作者注释"
+		"description": "用于函数注释"
 	},
-	"全局函数注释": {
+	"函数注释":{
 		"prefix": "@function",
 		"body": [
 			"/**",
-			"*说明",
+			"*@description $1",
 			"*@param ",
-			"*@example 例.",
-			"*/"
+			"**/"
 		],
 		"description": "用于函数注释"
+	},
+	"插入统计代码": {
+		"prefix": "track",
+		"body": [
+			"data-bn-ipg=\"$1\""
+		],
+		"description": "用于统计代码"
 	},
 }
 
