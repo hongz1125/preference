@@ -4,6 +4,7 @@
   "description": "1、vscode 代码片段添加",
   "main": "index.js",
   "scripts": {
+          "version": "auto-changelog -p && git add CHANGELOG.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
