@@ -4,10 +4,20 @@
   "description": "1、vscode 代码片段添加",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx -y only-allow pnpm",
+    "start": "node -v",
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "engines": {
+    "node": "16.x",
+    "pnpm": "8.x"
+  },
+  "packageManager": "pnpm@8.6.0",
+  "license": "ISC",
+  "devDependencies": {
+    "only-allow": "^1.1.1"
+  }
 }
